@@ -1,13 +1,24 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./styles.css";
+import Search from "./Search";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Search />
+    <footer>
+      <a
+        href="https://github.com/3cia01/weather-react"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        open-source code
+      </a>{" "}
+      by Patricia
+    </footer>
+    ;
   </React.StrictMode>
 );
 
